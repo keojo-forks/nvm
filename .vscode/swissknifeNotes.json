@@ -1,0 +1,9 @@
+[
+  {
+    "id": "751d4b60-0981-11ef-88fe-d907c943e9d7",
+    "body": "usually here PATH will be passed as the first character so i you want to prepand nvm instead of appending it you can change \n\n```\nnvm_echo \"${3-}${2-}:${1-}\"\n```\nto \n\n```\nnvm_echo \"${1-}:${3-}${2-}\n``",
+    "file": "nvm.sh",
+    "line": 837,
+    "author": "jocelinqueau"
+  }
+]
